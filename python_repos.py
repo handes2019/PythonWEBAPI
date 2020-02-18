@@ -35,6 +35,6 @@ for repo_dict in repo_dicts:
     print('\nName:', repo_dict['name'])
     print('Owner:', repo_dict['owner']['login'])
     print('Stars:', repo_dict['stargazers_count'])
-    print('Repository:', repo_dict['htnl_url'])
+    print('Repository:', repo_dict['html_url'])
     print('Description:', repo_dict['description'])
 
