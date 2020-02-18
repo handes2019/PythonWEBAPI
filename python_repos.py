@@ -50,7 +50,7 @@ names, plot_dicts = [], []
 for repo_dict in repo_dicts:
     names.append(repo_dict['name'])
     plot_dict = {
-        'value': repo_dict['stargazers_count']
+        'value': repo_dict['stargazers_count'],
         'label': repo_dict['description']
     }
     plot_dicts.append(plot_dict)
